@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="Enter">
-      <button>Click here to enter</button>
+      <button className="Entrance">Click here to enter</button>
     </div>
   );
 }
