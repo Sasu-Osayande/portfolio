@@ -23,21 +23,24 @@
   animation-iteration-count: infinite;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
+.Entrance a:link {
   text-decoration: none;
   color: rgb(123, 135, 127);
 }
 
-a:hover {
+.Entrance a:visited {
   text-decoration: none;
+  color: rgb(123, 135, 127);
 }
 
-a:active {
+.Entrance a:hover {
   text-decoration: none;
+  color: rgb(123, 135, 127);
+}
+
+.Entrance a:active {
+  text-decoration: none;
+  color: rgb(123, 135, 127);
 }
 
 @keyframes typing {

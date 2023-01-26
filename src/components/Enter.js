@@ -5,7 +5,7 @@ function Enter() {
   return (
     <div className="Enter">
       <button className="Entrance">
-        <Link to="/sasuosayande">Click here to enter</Link>
+        <Link to="/sasu">Click here to enter</Link>
       </button>
     </div>
   );
