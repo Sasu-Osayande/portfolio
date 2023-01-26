@@ -23,6 +23,23 @@
   animation-iteration-count: infinite;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(123, 135, 127);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
