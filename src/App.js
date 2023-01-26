@@ -1,10 +1,14 @@
-import "./App.css";
+// import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Enter from "./components/Enter";
 
 function App() {
   return (
-    <div className="Enter">
-      <button className="Entrance">Click here to enter</button>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Enter />} />
+      </Routes>
+    </Router>
   );
 }
 
