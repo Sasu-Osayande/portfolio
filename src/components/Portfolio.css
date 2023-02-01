@@ -1,5 +1,5 @@
 .Portfolio {
-  background-color: rgb(159, 172, 159);
+  background-color: rgb(201, 197, 219);
   min-height: 100vh;
   display: flex;
   /* flex-direction: column; */
@@ -15,4 +15,6 @@
 
 i {
   font-size: 30px;
+  color: rgb(84, 84, 84);
+  display: flex;
 }
