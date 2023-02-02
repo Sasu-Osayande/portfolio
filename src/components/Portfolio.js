@@ -4,7 +4,7 @@ import "./Portfolio.css";
 function Portfolio() {
   return (
     <div className="Portfolio">
-      <div>
+      <div className="Icons">
       <form
         action="https://github.com/Sasu-Osayande"
         target="_blank"
@@ -27,7 +27,7 @@ function Portfolio() {
       <div>
       <div><h1>Sage</h1></div>
       <div><h1>Fun-With-AI</h1></div>
-      <div><h1>Tweeter</h1></div>
+      <div><h1>Sprout</h1></div>
       </div>
     </div>
   );

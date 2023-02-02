@@ -1,7 +1,7 @@
 .Portfolio {
-  background-color: rgb(201, 197, 219);
+  background-color: rgb(192, 206, 192);
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
   /* justify-content: center; */
@@ -11,10 +11,17 @@
   background: transparent;
   border: none;
   cursor: pointer;
+  padding: 25px;
+  padding-left: 0px;
 }
 
 i {
   font-size: 30px;
   color: rgb(84, 84, 84);
   display: flex;
+}
+
+.Icons {
+  display: flex;
+  justify-content: end;
 }
