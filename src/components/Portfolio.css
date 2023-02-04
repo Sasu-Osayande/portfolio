@@ -45,11 +45,32 @@ i {
   border-radius: 10px;
   box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
   color: rgb(242, 244, 243);
-  animation: floating 3s ease-in-out infinite
+  cursor: pointer;
+  animation: floating 3s ease-in-out infinite;
+  position: relative;
+  right: 0px;
 }
 
 @keyframes floating {
   0% { transform: translate(0,  0px); }
   50%  { transform: translate(0, 15px); }
   100%   { transform: translate(0, -0px); }   
+}
+
+.Project:hover {
+  width: 550px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(164, 164, 164);
+  border: 3px solid rgb(135, 133, 133);
+  margin-top: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: none;
+  color: rgb(242, 244, 243);
+  right: 70px;
+  animation: floating;
+  animation-play-state: paused;
 }
