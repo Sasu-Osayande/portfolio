@@ -65,11 +65,13 @@ i {
   justify-content: center;
   background: rgb(164, 164, 164);
   border: 3px solid rgb(135, 133, 133);
+  /* color: rgb(147, 147, 245); */
   margin-top: 40px;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: none;
   color: rgb(242, 244, 243);
+  box-shadow: 12px 12px 2px 1px rgb(147 147 245 / 20%);
   right: 70px;
   animation: floating;
   animation-play-state: paused;
