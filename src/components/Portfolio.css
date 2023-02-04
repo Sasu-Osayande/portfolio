@@ -39,4 +39,10 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgb(164, 164, 164);
+  border: 3px solid rgb(135, 133, 133);
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+  color: rgb(242, 244, 243);
 }
