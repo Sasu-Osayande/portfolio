@@ -76,3 +76,12 @@ i {
   animation: floating;
   animation-play-state: paused;
 }
+
+.Blob {
+  display: block;
+  width: 265px;
+  height: 255px;
+  background-color: #8fb6a2;
+  border-radius: 117% 54% 50% 50% / 67% 59% 44% 40%;
+  background-image: radial-gradient(#8fb6a2, #c1d2c9);
+}

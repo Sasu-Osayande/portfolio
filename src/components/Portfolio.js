@@ -29,6 +29,9 @@ function Portfolio() {
       <div className="Project">Fun-With-AI</div>
       <div className="Project">Sprout</div>
       </div>
+      <div>
+        <div className="Blob"></div>
+      </div>
     </div>
   );
 }
