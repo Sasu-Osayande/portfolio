@@ -24,10 +24,10 @@ function Portfolio() {
         </button>
       </form>
       </div>
-      <div>
-      <div><h1>Sage</h1></div>
-      <div><h1>Fun-With-AI</h1></div>
-      <div><h1>Sprout</h1></div>
+      <div className="Projects">
+      <div className="Project">Sage</div>
+      <div className="Project">Fun-With-AI</div>
+      <div className="Project">Sprout</div>
       </div>
     </div>
   );

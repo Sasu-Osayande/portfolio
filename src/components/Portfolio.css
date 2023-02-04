@@ -18,10 +18,25 @@
 i {
   font-size: 30px;
   color: rgb(84, 84, 84);
-  display: flex;
+  /* display: flex; */
 }
 
 .Icons {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+.Projects {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 25px;
+}
+
+.Project {
+  width: 550px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
