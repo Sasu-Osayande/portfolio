@@ -45,4 +45,11 @@ i {
   border-radius: 10px;
   box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
   color: rgb(242, 244, 243);
+  animation: floating 3s ease-in-out infinite
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
 }
