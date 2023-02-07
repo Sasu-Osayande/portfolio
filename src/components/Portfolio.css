@@ -90,3 +90,19 @@ i {
   border: none;
   cursor: pointer;
 }
+
+.Btn-project a:link {
+  text-decoration: none;
+}
+
+.Btn-project a:visited {
+  text-decoration: none;
+}
+
+.Btn-project a:hover {
+  text-decoration: none;
+}
+
+.Btn-project a:active {
+  text-decoration: none;
+}

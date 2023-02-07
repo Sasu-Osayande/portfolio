@@ -31,10 +31,14 @@ function Portfolio() {
           </Link>
         </button>
         <button className="Btn-project">
+        <Link to="/funwithai">
           <div className="Project">Fun-With-AI</div>
+          </Link>
         </button>
         <button className="Btn-project">
+        <Link to="/sprout">
           <div className="Project">Sprout</div>
+          </Link>
         </button>
       </div>
       <div>
