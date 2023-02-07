@@ -68,7 +68,6 @@ i {
   /* color: rgb(147, 147, 245); */
   margin-top: 40px;
   border-radius: 10px;
-  cursor: pointer;
   box-shadow: none;
   color: rgb(242, 244, 243);
   box-shadow: 12px 12px 2px 1px rgb(147 147 245 / 20%);
@@ -84,4 +83,10 @@ i {
   background-color: #8fb6a2;
   border-radius: 117% 54% 50% 50% / 67% 59% 44% 40%;
   background-image: radial-gradient(#8fb6a2, #c1d2c9);
+}
+
+.Btn-project {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
