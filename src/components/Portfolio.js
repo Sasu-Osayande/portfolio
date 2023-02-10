@@ -42,7 +42,11 @@ function Portfolio() {
         </button>
       </div>
       <div>
-        <div className="Blob"></div>
+        <div className="Blob1"></div>
+        <div className="Blob2"></div>
+        <div className="Blob3"></div>
+        <div className="Blob4"></div>
+        <div className="Blob5"></div>
       </div>
     </div>
   );

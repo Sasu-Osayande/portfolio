@@ -52,9 +52,15 @@ i {
 }
 
 @keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 15px); }
-  100%   { transform: translate(0, -0px); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .Project:hover {
@@ -76,13 +82,27 @@ i {
   animation-play-state: paused;
 }
 
-.Blob {
+.Blob1 {
   display: block;
   width: 265px;
   height: 255px;
   background-color: #8fb6a2;
   border-radius: 117% 54% 50% 50% / 67% 59% 44% 40%;
-  background-image: radial-gradient(#8fb6a2, #c1d2c9);
+  background-image: radial-gradient(#8fb6a2, #c1d2c9b3);
+  margin: 25px;
+}
+
+.Blob2 {
+  display: block;
+  width: 500px;
+  height: 200px;
+  background-color: #af9fc1;
+  border-radius: 106% 6% 19% 4% / 78% 58% 21% 33%;
+  background-image: radial-gradient(#af9fc1, #e0d9e9af);
+  /* margin: 25px; */
+  position: relative;
+  bottom: 115px;
+  left: 105px;
 }
 
 .Btn-project {
