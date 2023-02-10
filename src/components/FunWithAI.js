@@ -1,4 +1,4 @@
-import "./Fun-with-ai.css";
+import "./FunWithAI.css";
 // import { Link } from "react-router-dom";
 
 function FunWithAI() {

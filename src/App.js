@@ -4,7 +4,7 @@ import Enter from "./components/Enter";
 import Portfolio from "./components/Portfolio";
 import Sage from "./components/Sage";
 import Sprout from "./components/Sprout";
-import FunWithAI from "./components/Fun-with-ai";
+import FunWithAI from "./components/FunWithAI";
 import About from "./components/About";
 
 function App() {
