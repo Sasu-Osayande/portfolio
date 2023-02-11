@@ -1,5 +1,6 @@
 import "./Portfolio.css";
 import { Link } from "react-router-dom";
+import image from "../assets/images/blob.png";
 
 function Portfolio() {
   return (
@@ -41,13 +42,14 @@ function Portfolio() {
           </Link>
         </button>
       </div>
-      <div>
+      <img src={image} alt="collection of colourful blobs" />
+      {/* <div>
         <div className="Blob1"></div>
         <div className="Blob2"></div>
         <div className="Blob3"></div>
         <div className="Blob4"></div>
         <div className="Blob5"></div>
-      </div>
+      </div> */}
     </div>
   );
 }
