@@ -2,3 +2,13 @@
   background-color: rgb(192, 206, 192);
   min-height: 100vh;
 }
+
+.blob-video {
+  width: 1500px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  pointer-events: none;
+  /* display: none;
+  opacity: 1; */
+}
