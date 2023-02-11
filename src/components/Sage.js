@@ -4,7 +4,7 @@ import "./Sage.css";
 function Sage() {
   return (
     <div className="Sage">
-      <h1>Sage</h1>
+      <span>Sage</span>
     </div>
   );
 }

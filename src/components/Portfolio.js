@@ -42,7 +42,7 @@ function Portfolio() {
           </Link>
         </button>
       </div>
-      <img src={image} alt="collection of colourful blobs" />
+      <img className="blob-img" src={image} alt="collection of colourful blobs" />
       {/* <div>
         <div className="Blob1"></div>
         <div className="Blob2"></div>

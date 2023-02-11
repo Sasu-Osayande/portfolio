@@ -126,3 +126,8 @@ i {
 .Btn-project a:active {
   text-decoration: none;
 }
+
+.blob-img {
+  position: fixed;
+  bottom: 0px;
+}

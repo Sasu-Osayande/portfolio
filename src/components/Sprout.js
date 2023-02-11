@@ -4,7 +4,7 @@ import "./Sprout.css";
 function Sprout() {
   return (
     <div className="Sprout">
-      <h1>Sprout</h1>
+      <span>Sprout</span>
     </div>
   );
 }

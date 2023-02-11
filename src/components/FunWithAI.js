@@ -4,7 +4,7 @@ import "./FunWithAI.css";
 function FunWithAI() {
   return (
     <div className="Fun-with-ai">
-      <h1>Fun-with-ai</h1>
+      <span>Fun-with-ai</span>
     </div>
   );
 }
